@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
 *{
     border: none;
     margin: 0;
@@ -9,7 +11,7 @@ html{
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Manrope', sans-serif;
     height: 100vh;
     background-color: #f9faff;
     background: url(images/pattern-circles.svg) center 10rem fixed, url(images/bg-pattern.svg);
