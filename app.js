@@ -10,26 +10,24 @@ function updateAmount(){
     let sliderValue = Number(slider.value);
 if(sliderValue == 8){
     views.innerHTML = "10k";
-    amount.innerHTML = `$${sliderValue}`;
+    amount.innerHTML = `$${sliderValue}.00`;
 }
 if(sliderValue == 12){
     views.innerHTML = "50k"
-    amount.innerHTML = `$${sliderValue}`;
+    amount.innerHTML = `$${sliderValue}.00`;
 }
 if(sliderValue == 16){
     views.innerHTML = "100k"
-    amount.innerHTML = `$${sliderValue}`;
+    amount.innerHTML = `$${sliderValue}.00`;
 }
 if(sliderValue == 24){
     views.innerHTML = "500k"
-    amount.innerHTML = `$${sliderValue}`;
+    amount.innerHTML = `$${sliderValue}.00`;
 }
 if(sliderValue == 36){
     views.innerHTML = "1M"
-    amount.innerHTML = `$${sliderValue}`;
+    amount.innerHTML = `$${sliderValue}.00`;
 }
-
-// console.log(sliderValue)
 
 }
 
